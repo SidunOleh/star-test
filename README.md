@@ -1,5 +1,7 @@
 ## Setup
 
+### set .env vars
+
 ### run migrations
 ```bash
 php artisan migrate
