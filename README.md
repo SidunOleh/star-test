@@ -2,7 +2,7 @@
 
 ### create .env and set vars
 ```bash
-cp .env.example  .env
+cp .env.example .env
 ```
 
 ### install composer dependencies
