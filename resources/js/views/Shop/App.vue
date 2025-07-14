@@ -64,9 +64,11 @@
 
   <LogIn 
     v-model:open="login.open"
-    @login="fetchCart"/>
+    @login="reloadPage"/>
 
-  <SignUp v-model:open="signup.open"/>
+  <SignUp 
+    v-model:open="signup.open"
+    @signUp="reloadPage"/>
 
 </template>
 
@@ -104,6 +106,9 @@ export default {
             await this.logout()
 
             this.$router.push({name: 'catalog'})
+        },
+        reloadPage() {
+            location.reload()
         },
     },
     async mounted() {
