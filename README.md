@@ -1,6 +1,6 @@
 ## Setup
 
-### set .env vars
+### create .env
 
 ### install composer dependencies
 ```bash
