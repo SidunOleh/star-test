@@ -2,6 +2,11 @@
 
 ### set .env vars
 
+### install composer dependencies
+```bash
+composer install
+```
+
 ### run migrations
 ```bash
 php artisan migrate
@@ -12,9 +17,14 @@ php artisan migrate
 php artisan admin:create
 ```
 
-Admin Panel path - /admin
+### install npm dependencies
+```bash
+npm install
+```
 
-### bundle front-end
+### build front-end
 ```bash
 npm run build
 ```
+
+Admin Panel path - /admin
