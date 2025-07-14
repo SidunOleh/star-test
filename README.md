@@ -5,8 +5,6 @@
 cp .env.example  .env
 ```
 
-### set .env vars
-
 ### install composer dependencies
 ```bash
 composer install
