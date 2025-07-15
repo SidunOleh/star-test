@@ -105,7 +105,7 @@ export default {
         async submitLogout() {
             await this.logout()
 
-            this.$router.push({name: 'catalog'})
+            this.reloadPage()
         },
         reloadPage() {
             location.reload()
