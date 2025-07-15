@@ -30,4 +30,9 @@ npm install
 npm run build
 ```
 
+### create storage link
+```bash
+php artisan storage:link
+```
+
 Admin Panel path - /admin
